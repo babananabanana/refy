@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="ie8 no-js"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
+<head>
+    <title>关于我们</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gelios Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.flexisel.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/jquery.flexslider-min.js" type="text/javascript"></script><!-- slider -->
+    <script src="js/modernizr.custom.js" type="text/javascript"></script> <!-- Modernizr -->
+    <script src="js/custom.js" type="text/javascript"></script> <!-- jQuery initialization -->
+    <!-- begin JS -->
+    <script>
+        $(function() {$(".flexslider").flexslider(); });
+    </script>
+    <!--[if IE 8]><script src="js/respond.min.js" type="text/javascript"></script><![endif]--> <!-- Respond -->
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+    <link href='http://fonts.useso.com/css?family=Playball' rel='stylesheet' type='text/css'>
+    <!----start-top-nav-script---->
+    <script src="js/custom.js" type="text/javascript"></script>
+    <script  type="text/javascript">
+
+    </script>
+    <!----- start-Share-instantly-slider---->
+    <!-- Prettify -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#owl-demo , #owl-demo1").owlCarousel({
+                items : 1,
+                lazyLoad : true,
+                autoPlay : true
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#owl-demo3").owlCarousel({
+                items : 4,
+                lazyLoad : true,
+                autoPlay : true,
+                navigation: false,
+                pagination: false
+            });
+        });
+    </script>
+    <!----- //End-Share-instantly-slider---->
+    <script type="text/javascript" src="js/hover_pack.js"></script>
+    <!-- Custom Theme files -->
+    <!----start-top-nav-script---->
+    <script>
+        $(function() {
+            var pull        = $('#pull');
+            menu        = $('nav ul');
+            menuHeight  = menu.height();
+            $(pull).on('click', function(e) {
+                e.preventDefault();
+                menu.slideToggle();
+            });
+            $(window).resize(function(){
+                var w = $(window).width();
+                if(w > 320 && menu.is(':hidden')) {
+                    menu.removeAttr('style');
+                }
+            });
+        });
+    </script>
+    <!----//End-top-nav-script---->
+    <script src="js/jquery.easydropdown.js"></script>
+    <script src="js/jquery-ui-1.8.21.custom.min.js" type="text/javascript"></script> <!-- tabs, toggles, accordion -->
+    <link rel="stylesheet" href="css/etalage.css">
+    <script src="js/jquery.etalage.min.js"></script>
+    <!----begin-calendar-script---->
+    <link rel='stylesheet' href='cupertino/theme.css' />
+    <link href='css/calendar/fullcalendar.css' rel='stylesheet' />
+    <link href='css/fullcalendar.print.css' rel='stylesheet' media='print' />
+    <script src='js/calendar/jquery-ui-1.10.2.custom.min.js'></script>
+    <script src='js/calendar/fullcalendar.min.js'></script>
+    <script>
+        $(document).ready(function() {
+            var date = new Date();
+            var d = date.getDate();
+            var m = date.getMonth();
+            var y = date.getFullYear();
+            $('#calendar').fullCalendar({
+                theme: true,
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,agendaWeek,agendaDay'
+                },
+                editable: true,
+                events: [
+                    {
+                        title: 'All Day Event',
+                        start: new Date(y, m, 1)
+                    },
+                    {
+                        title: 'Long Event',
+                        start: new Date(y, m, d-5),
+                        end: new Date(y, m, d-2)
+                    },
+                    {
+                        id: 999,
+                        title: 'Repeating Event',
+                        start: new Date(y, m, d-3, 16, 0),
+                        allDay: false
+                    },
+                    {
+                        id: 999,
+                        title: 'Repeating Event',
+                        start: new Date(y, m, d+4, 16, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'Meeting',
+                        start: new Date(y, m, d, 10, 30),
+                        allDay: false
+                    },
+                    {
+                        title: 'Lunch',
+                        start: new Date(y, m, d, 12, 0),
+                        end: new Date(y, m, d, 14, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'Birthday Party',
+                        start: new Date(y, m, d+1, 19, 0),
+                        end: new Date(y, m, d+1, 22, 30),
+                        allDay: false
+                    },
+                    {
+                        title: 'Click for Google',
+                        start: new Date(y, m, 28),
+                        end: new Date(y, m, 29),
+                        url: 'http://google.com/'
+                    }
+                ]
+            });
+        });
+    </script>
+</head>
+<body>
+<!-- new program-->
+<div class="grid_1">
+    <div class="container">
+        <div class="header">
+            <img src="images/backg.jpg" width="100%" class="img-responsive"/>
+            <div class="container">
+                <div class="clearfix"></div>
+                <div class="header_top">
+
+                    <div class="menu">
+                        <ul class="nav" id="nav">
+                            <li><a href="index.html">首页</a></li>
+                            <!-- <li><a href="anchor.html">主播介绍</a></li> -->
+                            <li><a href="recommend.html">一些推荐</a></li>
+                            <li><a href="contact.html">联系我们</a></li>
+                            <li class="current"><a href="about.html">关于我们</a></li>
+                        </ul>
+                        <script type="text/javascript" src="js/responsive-nav.js"></script>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main content -->
+            <script type="text/javascript">
+                window.logs = {
+                    pagetime: {}
+                };
+                window.logs.pagetime['html_begin'] = (+new Date());
+            </script>
+
+            <script type="text/javascript">
+                var page_begintime = (+new Date());
+
+                var biz = "MjM5Mzc3MTgwMA==";
+                var sn = "75747e40713da32ddfde178c2663fcb0" || "";
+                var mid = "211426887" || "";
+                var idx = "1" || "" ;
+                var is_rumor = ""*1;
+                var norumor = ""*1;
+                if (!!is_rumor&&!norumor){
+                    if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+                        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+                    }
+                }
+            </script>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+
+            <link rel="dns-prefetch" href="//res.wx.qq.com">
+            <link rel="dns-prefetch" href="//mmbiz.qpic.cn">
+            <meta name="apple-mobile-web-app-capable" content="yes">
+            <meta name="apple-mobile-web-app-status-bar-style" content="black">
+            <meta name="format-detection" content="telephone=no">
+            <script type="text/javascript">
+                String.prototype.html = function(encode) {
+                    var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+                    if (encode) {
+                        replace.reverse();
+                    }
+                    for (var i=0,str=this;i< replace.length;i+= 2) {
+                        str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+                    }
+                    return str;
+                };
+
+                window.isInWeixinApp = function() {
+                    return /MicroMessenger/.test(navigator.userAgent);
+                };
+
+                window.getQueryFromURL = function(url) {
+                    url = url || 'http://qq.com/s?a=b#rd'; // 做一层保护，保证URL合法
+                    var query = url.split('?')[1].split('#')[0].split('&'),
+                            params = {};
+                    for (var i=0; i<query.length; i++) {
+                        var arg = query[i].split('=');
+                        params[arg[0]] = arg[1];
+                    }
+                    if (params['pass_ticket']) {
+                        params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+                    }
+                    return params;
+                };
+
+                (function() {
+                    var params = getQueryFromURL(location.href);
+                    window.uin = params['uin'] || '';
+                    window.key = params['key'] || '';
+                    window.wxtoken = params['wxtoken'] || '';
+                    window.pass_ticket = params['pass_ticket'] || '';
+                })();
+
+            </script>
+
+            <title>天涯海角，只想读给你听</title>
+
+            <link rel="stylesheet" type="text/css" href="css/page_mp_article_improve2a7a3f.css">
+            <style>
+
+            </style>
+            <!--[if lt IE 9]>
+            <link rel="stylesheet" type="text/css" href="css/not_in_mm2a7a3f.css">
+            <![endif]-->
+            <script type="text/javascript">
+                document.domain = "qq.com";
+            </script>
+
+        </head>
+        <body id="activity-detail" class="zh_CN mm_appmsg" ontouchstart="">
+        <script type="text/javascript">
+            var write_sceen_time = (+new Date());
+        </script>
+        <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">
+            <div class="discuss_container_inner">
+                <h2 class="rich_media_title">天涯海角，只想读给你听</h2>
+                <span id="log"></span>
+                <div class="frm_textarea_box_wrp">
+                <span class="frm_textarea_box">
+                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="留言将由公众号筛选后显示，对所有人可见。"></textarea>
+                    <div class="emotion_tool">
+                        <span class="emotion_switch" style="display:none;"></span>
+                        <span id="js_emotion_switch" class="pic_emotion_switch_wrp">
+                            <img class="pic_default" src="https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch.2x278965.png" alt="">
+                            <img class="pic_active" src="https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/emotion/icon_emotion_switch_active.2x278965.png" alt="">
+                        </span>
+                        <div class="emotion_panel" id="js_emotion_panel">
+                            <span class="emotion_panel_arrow_wrp" id="js_emotion_panel_arrow_wrp">
+                                <i class="emotion_panel_arrow arrow_out"></i>
+                                <i class="emotion_panel_arrow arrow_in"></i>
+                            </span>
+                            <div class="emotion_list_wrp" id="js_slide_wrapper">
+                            </div>
+                            <ul class="emotion_navs" id="js_navbar">
+                            </ul>
+                        </div>
+                    </div>
+                </span>
+                </div>
+                <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>
+                <div class="discuss_list_wrp" style="display:none">
+                    <div class="rich_tips with_line title_tips discuss_title_line">
+                        <span class="tips">我的留言</span>
+                    </div>
+                    <ul class="discuss_list" id="js_cmt_mylist"></ul>
+                </div>
+                <div class="rich_tips tips_global loading_tips" id="js_mycmt_loading">
+                    <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/icon_loading_white2805ea.gif" class="rich_icon icon_loading_white" alt="">
+                    <span class="tips">加载中</span>
+                </div>
+                <div class="wx_poptips" id="js_cmt_toast" style="display:none;">
+                    <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">
+                    <p class="toast_content">已留言</p>
+                </div>
+            </div>
+        </div>
+        <div id="js_article" class="rich_media">
+            <div id="js_top_ad_area" class="top_banner">
+            </div>
+            <div class="rich_media_inner">
+                <div id="page-content">
+                    <div id="img-content" class="rich_media_area_primary">
+                        <h2 class="rich_media_title" id="activity-name">
+                            天涯海角，只想读给你听
+                        </h2>
+                       
+                        <div class="rich_media_content " id="js_content">
+                            <section style="border: none; margin: 0.5em 0px; padding: 0px 0.5em; text-align: center; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><img style="box-sizing: border-box; float: left; display: inline; width: 100%; margin: 0px; text-align: start;" data-src="http://mmbiz.qpic.cn/mmbiz/SXIyymo4Zd8AvD3thT0yNFaFMsWk1geU3HgGJNXiaxjtKF1AnMdE53icyjYaVtft2fxc4A2TsibzeAUEmDNicP4YTw/0?wx_fmt=jpeg" class="tn-Powered-by-XIUMI" data-type="jpeg" data-ratio="1" data-w="490"  /><section style="display: inline-block; vertical-align: top; overflow: hidden; width: 100%; height: 16em; margin-top: -16em; font-size: 1em; font-family: inherit; font-weight: inherit; text-align: left; text-decoration: inherit; color: rgb(255, 255, 255); border-color: rgb(246, 241, 240); box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="width: 100%; height: 10em; padding: 0px 15px; line-height: 1.2em; box-sizing: border-box; background: -webkit-linear-gradient(bottom, rgb(246, 241, 240), rgba(255, 247, 234, 0)) rgba(174, 81, 81, 0);" class="tn-Powered-by-XIUMI"><section style="box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"><br class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"  /><br class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"  /><br class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"  /><br class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"  /><br class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"  /><br class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"  /></section><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"><br class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"  /></section><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"><br class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"  /></section><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"><br class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"  /></section><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"></section><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"><br class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"  /></section></section></section><section style="width: 100%; height: 6em; box-sizing: border-box; background-color: rgb(246, 241, 240);" class="tn-Powered-by-XIUMI"></section></section><section style="width: 0px; height: 0px; clear: both;"></section></section><section style="margin: 0.8em 0px; font-size: 1em; line-height: 1.4; box-sizing: border-box; padding: 0px; border: 0px;" class="tn-Powered-by-XIUMI"><section style="padding: 10px; border: 2px dashed rgb(255, 255, 255); font-size: 1em; font-family: inherit; font-weight: inherit; text-align: inherit; text-decoration: inherit; color: rgb(51, 51, 51); box-sizing: border-box; background-color: rgb(255, 255, 255);" class="tn-Powered-by-XIUMI"><p style="box-sizing: border-box;"><span style="color: rgb(127, 127, 127); font-size: 14px;">“FM25938”，它可不是没有故事的怪数字。对于荔枝FM来说，这是我家80万电台中深受小伙伴们喜爱的电台之一，英语读得棒棒哒，文章音乐美美哒。节目从2013年12月10日开播至今，500多天里，播出了86期节目，获得了近40万的粉丝关注和近2000万的总播放量。37位来自全世界4个国家31个城市的主播们精心打造的每一期节目都颇受欢迎。虽然主题不同、声音不同，但每一次地聆听，都会有一个地方被触动。就像他们自己说的那样——听英语是一种享受。</span></p><p style="box-sizing: border-box;"><span style="color: rgb(127, 127, 127); font-size: 14px;"><br  /></span></p><section style="overflow: hidden; border: none; margin: 0.5em 0px; box-sizing: border-box; padding: 0px;" class="tn-Powered-by-XIUMI"><section style="width: 30%; float: left; font-size: 2em; font-family: inherit; font-weight: 800; text-align: center; text-decoration: inherit; color: rgb(124, 127, 118); border-color: rgb(157, 80, 38); box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="width: 1.5em; line-height: 1.2em; border-top-width: 15px; border-top-style: solid; border-color: rgb(157, 80, 38); border-left-width: 15px; border-left-style: solid; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="width: 2em; margin: 0.5em; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;">部分主播照片墙</section></section></section><section style="width: 20px; height: 5em; margin-top: -5em; box-sizing: border-box; background-color: rgb(255, 255, 255);" class="tn-Powered-by-XIUMI"></section></section><section style="width: 65%; float: right; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="margin-top: 10px; font-size: 1em; font-family: inherit; font-weight: inherit; text-decoration: inherit; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box; text-align: center;"><span style="color: rgb(192, 0, 0);">【为你读英语美文】</span></section></section><img style="box-sizing: border-box; width: 100%; margin-top: 5px;" src="images/640_004.jpg" class="tn-Powered-by-XIUMI" data-type="jpeg" data-ratio="1.3706070287539935" data-w="313"  /></section></section></section></section><section style="border: 0px; margin: 0.8em 0px 0.5em; line-height: 1; box-sizing: border-box; padding: 0px;" class="tn-Powered-by-XIUMI"><section style="border-bottom-width: 1px; border-bottom-style: solid; width: 100%; padding-bottom: 8px; font-size: 1.4em; font-family: inherit; font-weight: inherit; text-align: inherit; text-decoration: inherit; border-color: rgb(160, 160, 160); box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"><span style="color: rgb(127, 127, 127);">感动别人，也感动自己</span></section></section><section style="width: 0px; height: 0px; clear: both;"></section></section><section style="margin: 0.8em 0px; font-size: 1em; line-height: 1.4; box-sizing: border-box; padding: 0px; border: 0px;" class="tn-Powered-by-XIUMI"><section style="padding: 10px; border: 2px dashed rgb(255, 255, 255); font-size: 1em; font-family: inherit; font-weight: inherit; text-align: inherit; text-decoration: inherit; color: rgb(51, 51, 51); box-sizing: border-box; background-color: rgb(255, 255, 255);" class="tn-Powered-by-XIUMI"><section style="margin: 0.8em 1em; font-size: 1em; line-height: 1.4; box-sizing: border-box; padding: 0px; border: 0px;" class="tn-Powered-by-XIUMI"><section style="padding: 10px; border: 2px dashed rgb(255, 255, 255); font-size: 1em; font-family: inherit; font-weight: inherit; text-align: inherit; text-decoration: inherit; color: rgb(51, 51, 51); box-sizing: border-box; background-color: rgb(255, 255, 255);" class="tn-Powered-by-XIUMI"><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">2013年12月的一天，到北京工作不久的永清偶然在自己的朋友圈发现了一个新玩意，有小伙伴用它把自己的声音发到了朋友圈。“能在朋友圈里分享自己的声音，还蛮有意思的。”永清觉得，于是他把当时还很青涩的荔枝FM下载到了自己的iPad里。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">永清是云南人，毕业于西安外国语大学英语专业。从初中起就很喜欢广播，是会给自己喜欢的节目和主持人写信的热心听友。与英语朝夕相处四年的他深深地感受到了语言之美，想到要创办一个自己的电台后，他首先明确不要做一个“教大家学英语”的栏目。受到当时在微信里颇受欢迎的“为你读诗”公众号的启发，永清的思路渐渐明晰。“他们希望通过诗歌给听众一些思考和启发，而我就想通过我们的节目给听友一些思考或者启发，又或者让他们感受到哪怕片刻的宁静和享受。在节奏很快的现代社会，通过听我们的声音，能让他们心静下来，找到自己内心的声音”，永清说。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">于是，12月10日，永清在“调频”FM25938，制作了“为你读英语美文”的第一期节目。这期只有3分22秒的节目中，他朗读了《IfIRest,Rust》。节目被分享到朋友圈后，获赞无数。这些小小的赞给了永清不小的成就感。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">“我们的节目想以中文为纽带，拉着听众的手，打开英语这道门，让听众自己在英语的世界里走，当他们走出来的时候可能会有不一样的感受”，永清说。所以每期节目都有中文的片头和结尾，这样，无论听众能否听懂英文，都能听懂节目的内容。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">来自世界各地的主播，每周与自己的听友一起分享文章和音乐。荔枝FM的主播并不是他们的本职工作，却无疑已经成为其中很多人的事业。一期节目从确定主题到最后上线，一个主播大概要花十天的时间准备。没有报酬，甚至要自己出资购买录音设备。为了选取一首适合的歌曲，将其中的一段用在节目中，主播们愿意听遍这支歌曲的所有上百个版本。他们在节目背后默默努力，因为通过分享，他们获得了快乐。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"></span></p><section style="overflow: hidden; border: none; margin: 0.5em 0px; box-sizing: border-box; padding: 0px;" class="tn-Powered-by-XIUMI"><section style="width: 30%; float: left; font-size: 2em; font-family: inherit; font-weight: 800; text-align: center; text-decoration: inherit; color: rgb(124, 127, 118); border-color: rgb(157, 80, 38); box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="width: 1.5em; line-height: 1.2em; border-top-width: 15px; border-top-style: solid; border-color: rgb(157, 80, 38); border-left-width: 15px; border-left-style: solid; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="width: 2em; margin: 0.5em; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;">美女主播</section></section></section><section style="width: 20px; height: 5em; margin-top: -5em; box-sizing: border-box; background-color: rgb(255, 255, 255);" class="tn-Powered-by-XIUMI"></section></section><section style="width: 65%; float: right; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="margin-top: 10px; font-size: 1em; font-family: inherit; font-weight: inherit; text-decoration: inherit; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box; text-align: center;"><span style="color: rgb(192, 0, 0);">【主播旦增桑姆、锦华、丁增美朵】</span></section></section><img style="box-sizing: border-box; width: 100%; margin-top: 5px;" src="images/640_002.jpg" class="tn-Powered-by-XIUMI" data-type="jpeg" data-ratio="0.6606498194945848" data-w="277"  /></section><section style="width: 0px; height: 0px; clear: both;"></section></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"></span><br  /></p><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">2015年3月18日，是主播潇雨进入“为你读英语美文”团队一周年的日子。在那一天，作为第73期节目的主播，她与听众分享了文章《TheBustoNowhere》（《目的地未明》）。潇雨说，加入这个节目最大的收获之一在于让自己不至于忘记了之前想要的生活是什么样的。而这期关于目的地未明的故事，正是她对自己感受的分享。“节目播出后，很多人说这期节目鼓励了他们，其实我也是在鼓励我自己，节目中说过的一些话其实我也没有做到，但我要说给自己听，不然我也怕自己把自己最开始想要的样子都忘了”。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">听过节目就会发现，节目分享的其实以不仅仅是优美的文字和动听的旋律，那个将文字和旋律带出来的动人故事，往往特别打动人心。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">在西班牙的主播Benny就曾经在77期节目《OutoftheShadows》中勇敢地讲述了自己和抑郁症抗争并成功走出抑郁的经历。最年长的主播——来自美国的Mr.Phil则用自己刚到中国任教的经历，讲了关于微笑的力量……</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">主播们的分享感动着听众，也被听众的分享感动着。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">潇雨曾经在学校里做了近三年的校园广播主持人。虽然之前在学校做广播节目时每天都会播出，而且时间都不短，但是除了广播台里小伙伴们的互相监督几乎得不到反馈。现在每一期节目都有听众留言，每一次自己的节目感动了别人，每一次自己的感受引起听众共鸣。“都能受到特别多听友的鼓励，这是自己一开始没有想到的”。偶尔“你一点点的不用心听众都可以听出来”。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">主播Sally加入团队时正逢《霍比特人：五军之战》上映。潇雨是中土迷，Sally也是，两人一拍即合，先后做了《霍比特人》特辑和《魔戒》特辑。“其实做《魔戒》特辑是出于自己的私心，我想做一期节目纪念一下我和中土的那些年，选题得到了永清的支持，他总是用他的情怀，包容一切主播们想在节目中表达的想法和情感，而且这些是他觉得非常宝贵的东西”。尽管知道工作量巨大，潇雨还是开始了节目的制作——写稿、录音、剪辑。这期长近50分钟的节目，是白天在国家电网上班的她，连续剪辑了四个晚上，每天从下班剪到第二天凌晨四点才完成的。幸得于自己之前接近100遍的电影观影经历，使她在节目制作过程中的工作量小了很多。“那期节目中我运用了很多电影原声来介绍故事内容，为此需要将影片中的对话全部转化成音频，再找自己需要的部分剪辑出来，还好对电影已经特别熟悉，找需要的段落并没有花费太久时间”。周三节目按期发布后由于太长，效果并不是很理想，潇雨找到Sally帮忙，重新选择讲故事的方法，又用了三天，潇雨交出了故事更为完整的精简版。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"></span></p><section style="overflow: hidden; border: none; margin: 0.5em 0px; box-sizing: border-box; padding: 0px;" class="tn-Powered-by-XIUMI"><section style="width: 30%; float: left; font-size: 2em; font-family: inherit; font-weight: 800; text-align: center; text-decoration: inherit; color: rgb(124, 127, 118); border-color: rgb(157, 80, 38); box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="width: 1.5em; line-height: 1.2em; border-top-width: 15px; border-top-style: solid; border-color: rgb(157, 80, 38); border-left-width: 15px; border-left-style: solid; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="width: 2em; margin: 0.5em; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;">外籍主播</section></section></section><section style="width: 20px; height: 5em; margin-top: -5em; box-sizing: border-box; background-color: rgb(255, 255, 255);" class="tn-Powered-by-XIUMI"></section></section><section style="width: 65%; float: right; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="margin-top: 10px; font-size: 1em; font-family: inherit; font-weight: inherit; text-decoration: inherit; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box; text-align: center;"><span style="color: rgb(192, 0, 0);">【Ms Liz and Mr Phil】</span></section></section><img style="box-sizing: border-box; width: 100%; margin-top: 5px;" src="images/640_006.jpg" class="tn-Powered-by-XIUMI" data-type="jpeg" data-ratio="0.6606498194945848" data-w="277"  /></section><section style="width: 0px; height: 0px; clear: both;"></section></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"></span><br  /></p><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">本来对于潇雨来说，能做这样一期节目，并在节目中说出了自己想说的话已然满足，但这期节目却让她收获到了巨大的感动。一天，一位经常听潇雨节目、在新西兰求学的听友给潇雨留言，让她到“为你读英语美文”的百度贴吧看一看。潇雨打开贴吧，看到他发了帖子，里面有霍比屯的照片，心中顿生羡慕。惊喜在她看到最后一张照片时出现，这张照片拍摄的是一块小小的白板，上面写着“潇雨，我们在这里等你”，白板后面的背景，正是霍比屯。一位你虽未谋面的听友，通过节目和声音，却懂得了潇雨长久以来对中土的热爱，就像遇上知音。这一次，被感动的不是收听节目的听众，而是一直给听众带去感动的潇雨。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><p style="box-sizing: border-box;"><br  /></p><section style="overflow: hidden; border: none; margin: 0.5em 0px; box-sizing: border-box; padding: 0px;" class="tn-Powered-by-XIUMI"><section style="width: 30%; float: left; font-size: 2em; font-family: inherit; font-weight: 800; text-align: center; text-decoration: inherit; color: rgb(124, 127, 118); border-color: rgb(157, 80, 38); box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="width: 1.5em; line-height: 1.2em; border-top-width: 15px; border-top-style: solid; border-color: rgb(157, 80, 38); border-left-width: 15px; border-left-style: solid; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="width: 2em; margin: 0.5em; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;">主播永清</section></section></section><section style="width: 20px; height: 5em; margin-top: -5em; box-sizing: border-box; background-color: rgb(255, 255, 255);" class="tn-Powered-by-XIUMI"></section></section><section style="width: 65%; float: right; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="margin-top: 10px; font-size: 1em; font-family: inherit; font-weight: inherit; text-decoration: inherit; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box; text-align: center;"><span style="color: rgb(192, 0, 0);">【线下活动现场】</span></section></section><img style="box-sizing: border-box; width: 100%; margin-top: 5px;" src="images/640_005.jpg" class="tn-Powered-by-XIUMI" data-type="jpeg" data-ratio="1" data-w="277"  /></section></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"></span></p></section></section></section></section><section style="border: 0px; margin: 0.8em 0px 0.5em; line-height: 1; box-sizing: border-box; padding: 0px;" class="tn-Powered-by-XIUMI"><section style="border-bottom-width: 1px; border-bottom-style: solid; width: 100%; padding-bottom: 8px; font-size: 1.4em; font-family: inherit; font-weight: inherit; text-align: inherit; text-decoration: inherit; border-color: rgb(160, 160, 160); box-sizing: border-box;" class="tn-Powered-by-XIUMI"><p style="box-sizing: border-box;"><span style="color: rgb(127, 127, 127);">天涯海角，为你读美文</span></p></section></section><section style="margin: 0.8em 1em; font-size: 1em; line-height: 1.4; box-sizing: border-box; padding: 0px; border: 0px;" class="tn-Powered-by-XIUMI"><section style="padding: 10px; border: 2px dashed rgb(255, 255, 255); font-size: 1em; font-family: inherit; font-weight: inherit; text-align: inherit; text-decoration: inherit; color: rgb(51, 51, 51); box-sizing: border-box; background-color: rgb(255, 255, 255);" class="tn-Powered-by-XIUMI"><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">一个由身在不同国家的主播组成的团队运作其实并不太容易，但是永清依旧在坚持。“当初办节目的时候就想，一个人的视野毕竟是有限的，阅读量也是有限的，还不如把我身边的朋友拉进来”。而每一个主播都为节目带来了更多地可能性。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">一开始，“为你读英语美文”成为了永清和朋友们毕业后共同守护的理想平台，他们用自己学生时代般的热情在感悟和分享，并得到了很多人的肯定。第一个加入的主播是冯静，她加入之后，“为你读英语美文”的节目不再只是手机录音，手机剪辑后就上传——后期制作，成为了节目编辑的重要流程，让听变成一种享受有了技术上的保障。后来外研社的佳文和从事翻译工作的王雪，还有玉涵、嘉欣、可人、怡静、Ben、锦华以及由锦华带来的最小的两位主播——丁曾美朵、旦增桑姆；西安外国语大学外教Mr. Phil和Ms. Liz；陶卫冬、张伟、小黎、贺珺、正鹏、尚尚、筱思等永清的老师、同学纷纷加入主播团队。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"></span></p><section style="overflow: hidden; border: none; margin: 0.5em 0px; box-sizing: border-box; padding: 0px;" class="tn-Powered-by-XIUMI"><section style="width: 30%; float: left; font-size: 2em; font-family: inherit; font-weight: 800; text-align: center; text-decoration: inherit; color: rgb(124, 127, 118); border-color: rgb(157, 80, 38); box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="width: 1.5em; line-height: 1.2em; border-top-width: 15px; border-top-style: solid; border-color: rgb(157, 80, 38); border-left-width: 15px; border-left-style: solid; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="width: 2em; margin: 0.5em; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;">工作照</section><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;">片</section></section></section><section style="width: 20px; height: 5em; margin-top: -5em; box-sizing: border-box; background-color: rgb(255, 255, 255);" class="tn-Powered-by-XIUMI"></section></section><section style="width: 65%; float: right; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="margin-top: 10px; font-size: 1em; font-family: inherit; font-weight: inherit; text-decoration: inherit; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box; text-align: center;"><span style="color: rgb(192, 0, 0);">【为你读英文美文】</span></section></section><img style="box-sizing: border-box; width: 100%; margin-top: 5px;" src="images/640.jpg" class="tn-Powered-by-XIUMI" data-type="jpeg" data-ratio="0.7474402730375427" data-w="293"  /></section><section style="width: 0px; height: 0px; clear: both;"></section></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"></span><br  /></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">2014年春节过后，永清收到了一份以《小王子》的故事为主题的中英文录音小样，这封小小的邮件使可能性更丰富了些。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">声音的主人在邮件中介绍了自己的经历，表示自己希望能加入主播团队。女孩的认真、热情与让人惊艳的声音打动了永清，于是他回复了邮件，邀请女孩加入。这个女孩，就是潇雨——主播团队里第一个，永清素未谋面的朋友。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">之后，通过网络加入到主播中的“陌生”朋友越来越多，中文系毕业的Sally;高三在读的Holly、在央视工作的粒粒、博士李楠、博士后老V、在美国求学的麒静、在加拿大求学的Sean，以及在德国求学的严喆、在西班牙求学的黄茜……</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">现在，《为你读英语美文》主播团队的人越来越多，最大的主播77岁，最小的主播只有12岁；都拥有认真生活的态度应该是主播团队的一大特点，他们在自己的行业里认真地工作，也认真地对待这个节目。或许一开始主播们聚在一起只是因为爱好，或者选择了做一件事情就要做好的生活态度，但渐渐地，这样一个小小的事业，让他们越来越清楚自己想要的是什么——它让主播们收获了太多。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">潇雨说永清人脉太广，永清却说是因为这个节目让他认识了越来越多的人。比如收听节目之后经常和自己互动的听众，比如参加荔枝FM线下活动的时候认识的其他主播。更重要的是，因为节目，他越来越充实。现在听到好听的音乐、读到好的文章，甚至听到好听的声音，永清的第一反应都是“我要把它用到我的节目中去”。下班之后有时间，永清就会去国家大剧院听讲座、看演出，一开始是节目需要，现在这种发现身边的美，也已经成为习惯。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">“我刚进驻荔枝FM的时候荔枝也刚刚起步，电台和用户的数量比现在少很多，如今却已经发展得那么好，正因为荔枝的发展，我们的节目才成长起来。所以这个节目是和荔枝FM一起成长的，而我们也是和这个节目一起成长的。它虽然还没赚钱，但是在心理上和成就感上补充了我自己的工作里不能被满足的东西，它让我的生活更充实。”永清说。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">正是在这一群人的努力下，这个节目获得了很多人的喜爱，从耄耋老人到襁褓中的婴孩，都会听节目。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">如今，两岁不到的“为你读英语美文”见证了主播嘉欣的女儿的出生，见证了这个小生命的第一个儿童节，也见证了很多听节目的妈妈和宝贝们的成长。嘉欣说等她女儿会说英语了要带她一起来录节目。等女儿再大一点，让她独立录节目。如果节目存在的时间够久，她更希望女儿可以来管理这个节目。有一个声音能记录自己的出生，成长。也是个很棒的事。</span></section><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">永清觉得节目成为了每一个主播自己的成长记录，每一期节目都诉说着主播现在的想法，现在的状态。每做一期节目，每收到一个反馈，都会让节目和主播自己更加成熟。所以如果能在十年以后，甚至二十年、三十年以后，再倒过来听自己现在的声音，那种感觉应该会很棒。</span></p><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);"><br  /></span></p><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(127, 127, 127);">如今每一个人都希望节目走得更远，主播们也在努力提高节目质量——让主播根据自己的时间和灵感来做，这样节目才不会被时间赶着走。除了注重音乐的选择，文章也尽量使用经典美文。永清还计划在今后的节目中更多地让听友参与进来，使节目更为开放。</span></section></section><section style="width: 0px; height: 0px; clear: both;"></section></section><section style="border: 0px; margin: 1em 0px 1.5em; clear: both; box-sizing: border-box; padding: 0px;" class="tn-Powered-by-XIUMI"><section style="font-size: 1em; font-family: inherit; font-weight: inherit; text-align: center; text-decoration: inherit; color: rgb(255, 255, 255); border-color: rgb(216, 213, 212); box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="width: 2em; height: 2em; margin: 0px auto; border-radius: 100%; box-sizing: border-box; background-color: rgb(216, 213, 212);" class="tn-Powered-by-XIUMI"><section style="display: inline-block; font-size: 1em; line-height: 2; font-family: inherit; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section class="tn-Powered-by-XIUMI" style="box-sizing: border-box;">end</section></section></section><section style="margin-top: -1em; margin-bottom: 1em; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="border-top-width: 1px; border-top-style: solid; width: 35%; float: left; border-color: rgb(216, 213, 212); box-sizing: border-box;" class="tn-Powered-by-XIUMI"></section><section style="border-top-width: 1px; border-top-style: solid; width: 35%; float: right; border-color: rgb(216, 213, 212); box-sizing: border-box;" class="tn-Powered-by-XIUMI"></section></section></section><section style="width: 0px; height: 0px; clear: both;"></section></section><p><br  /></p><section style="border: none; margin: 1.5em 0px 0px; text-align: center; box-sizing: border-box; padding: 0px;" class="tn-Powered-by-XIUMI"><section style="display: inline-block; vertical-align: top; font-size: 1.2em; font-family: inherit; font-weight: inherit; text-decoration: inherit; color: rgb(42, 52, 58); border-color: rgb(216, 213, 212); box-sizing: border-box; background-color: rgb(255, 255, 255);" class="tn-Powered-by-XIUMI"><section style="width: 6em; height: 6em; padding: 2.75em 0px; border-radius: 50%; box-sizing: border-box; background-color: rgb(216, 213, 212);" class="tn-Powered-by-XIUMI"><section style="width: 6em; height: 0.3em; box-sizing: border-box; background-color: rgb(255, 255, 254);" class="tn-Powered-by-XIUMI"></section><section style="width: 0.3em; height: 6em; margin: -3.05em 2.85em 0px; box-sizing: border-box; background-color: rgb(255, 255, 254);" class="tn-Powered-by-XIUMI"></section><section style="width: 4.8em; height: 4.8em; border-radius: 50%; margin: -5.4em 0.6em 1.5em; box-sizing: border-box; background-color: rgb(255, 255, 254);" class="tn-Powered-by-XIUMI"></section></section><section style="width: 4.8em; height: 4.8em; border-radius: 50%; margin: -5.4em 0.6em 1.5em; box-sizing: border-box; background-color: transparent;" class="tn-Powered-by-XIUMI"><section style="height: 2.5em; box-sizing: border-box;" class="tn-Powered-by-XIUMI"><section style="width: 3.3em; height: 2.5em; margin: auto; line-height: 2.5em; overflow: hidden; font-size: 1.2em; font-family: inherit; font-weight: inherit; text-decoration: inherit; box-sizing: border-box;" class="tn-Powered-by-XIUMI"></section></section></section><section style="margin-left: 0.5em; width: 55%; display: inline-block; vertical-align: middle; font-size: 75%; font-family: inherit; font-weight: inherit; text-align: left; text-decoration: inherit; color: rgb(42, 52, 58); box-sizing: border-box;" class="tn-Powered-by-XIUMI"><p style="box-sizing: border-box;"><span style="font-size: 14px; color: rgb(165, 165, 165);"><br  /></p></section></section></div>
+                        <script type="text/javascript">
+                            var first_sceen__time = (+new Date());
+                            if ("" == 1 && document.getElementById('js_content'))
+                                document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+                            (function(){
+                                if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                                    var link = document.createElement('link');
+                                    var head = document.getElementsByTagName('head')[0];
+                                    link.rel = 'stylesheet';
+                                    link.type = 'text/css';
+                                    link.href = "https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_winwx2b1291.css";
+                                    head.appendChild(link);
+                                }
+                            })();
+                        </script>
+                        <link rel="stylesheet" type="text/css" href="css/page_mp_article_improve_combo2a7a3f.css">
+
+                        <div class="rich_media_tool" id="js_toobar3">
+                         
+                            <div id="js_read_area3" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like3">
+                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum3"></span>
+                        </span>
+                        </div>
+                    </div>
+
+                    <div class="rich_media_area_extra">
+
+
+                        <div class="mpda_bottom_container" id="js_bottom_ad_area">
+                        </div>
+                        <div id="js_iframetest" style="display:none;"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script>window.moon_map = {"appmsg/emotion/caret.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret278965.js","appmsg/emotion/map.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/map278965.js","appmsg/emotion/textarea.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea27cdc5.js","appmsg/emotion/nav.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav278965.js","appmsg/emotion/common.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common278965.js","appmsg/emotion/slide.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide2a9cd9.js","biz_wap/jsapi/cardticket.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket275627.js","pages/report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report2a26bd.js","pages/music_player.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player298e98.js","pages/loadscript.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript292ed8.js","appmsg/emotion/dom.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom278965.js","appmsg/emotion/emotion.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion2a9cd9.js","biz_wap/utils/hashrouter.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hashrouter2805ea.js","appmsg/cmt_tpl.html.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html2a2c13.js","a/gotoappdetail.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail2a2c13.js","a/ios.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios275627.js","a/android.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android275627.js","a/profile.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile29b1f8.js","a/card.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card29b1f8.js","biz_wap/utils/position.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position29b1f8.js","appmsg/a_report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a_report2b46a3.js","biz_common/utils/report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report275627.js","biz_common/utils/huatuo.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/huatuo293afc.js","biz_common/utils/cookie.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie275627.js","pages/voice_component.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component2a74ac.js","new_video/ctl.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl292ed8.js","biz_common/utils/monitor.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor2a30ee.js","biz_common/utils/spin.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/spin275627.js","biz_wap/jsapi/pay.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/pay275627.js","appmsg/reward_entry.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry2b1291.js","appmsg/comment.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment2a9cd9.js","appmsg/like.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2b5583.js","appmsg/a.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2b3578.js","pages/version4video.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video2a6afa.js","biz_wap/utils/storage.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage2a74ac.js","biz_common/tmpl.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl2b3578.js","appmsg/img_copyright_tpl.html.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html2a2c13.js","appmsg/a_tpl.html.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a_tpl.html2a4dd8.js","biz_common/ui/imgonepx.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx275627.js","biz_common/dom/attr.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr275627.js","biz_wap/utils/ajax.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax2b56ce.js","biz_common/utils/string/html.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html29f4e9.js","appmsg/report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report2a30ee.js","biz_common/dom/class.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class275627.js","appmsg/report_and_source.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source29f4e9.js","appmsg/page_pos.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos2b46b6.js","appmsg/cdn_speed_report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report275627.js","appmsg/voice.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice2ab8bd.js","appmsg/qqmusic.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic2ab8bd.js","appmsg/iframe.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe2b39ee.js","appmsg/review_image.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2a5394.js","appmsg/outer_link.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link275627.js","biz_wap/jsapi/core.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core2b0d03.js","biz_common/dom/event.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event275627.js","appmsg/copyright_report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report2a2c13.js","appmsg/cache.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cache2a74ac.js","appmsg/pay_for_reading.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/pay_for_reading28f721.js","appmsg/async.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async2ae6ea.js","biz_wap/ui/lazyload_img.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img2b18f6.js","biz_common/log/jserr.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr2805ea.js","appmsg/share.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share2b5583.js","biz_wap/utils/mmversion.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion275627.js","appmsg/cdn_img_lib.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib275627.js","biz_common/utils/url/parse.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse275627.js","biz_wap/utils/device.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device2b3aae.js","biz_wap/jsapi/a8key.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/a8key2a30ee.js","appmsg/index.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2a9baf.js"};window.moon_crossorigin = true;</script><script type="text/javascript" src="js/moon2b5731.js" crossorigin></script>
+        <script id="voice_tpl" type="text/html">
+            <span id="voice_main_<#=voiceid#>_<#=posIndex#>" class="db audio_area <#if(!musicSupport){#> unsupport<#}#>">
+            <span class="tc tips_global unsupport_tips" <#if(show_not_support!==true){#>style="display:none;"<#}#>>
+                当前浏览器不支持播放音乐或语音，请在微信或其他浏览器中播放</span>
+            <span class="audio_wrp db">
+                <span id="voice_play_<#=voiceid#>_<#=posIndex#>" class="audio_play_area">
+                    <i class="icon_audio_default"></i>
+                    <i class="icon_audio_playing"></i>
+                    <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread26f1f1.png" alt="" class="pic_audio_default">
+                </span>
+                <span class="audio_length tips_global"><#=duration_str#></span>
+                <span class="db audio_info_area">
+                    <strong class="db audio_title"><#=title#></strong>
+                    <span class="audio_source tips_global"><#if(window.nickname){#>来自<#=window.nickname#><#}#></span>
+                </span>
+                <span id="voice_progress_<#=voiceid#>_<#=posIndex#>" class="progress_bar" style="width:0px;"></span>
+            </span>
+            </span>
+        </script>
+        <script id="qqmusic_tpl" type="text/html">
+            <span id="qqmusic_main_<#=comment_id#>_<#=posIndex#>" class="db qqmusic_area <#if(!musicSupport){#> unsupport<#}#>">
+            <span class="tc tips_global unsupport_tips" <#if(show_not_support!==true){#>style="display:none;"<#}#>>
+                当前浏览器不支持播放音乐或语音，请在微信或其他浏览器中播放</span>
+            <span class="db qqmusic_wrp">
+                <span class="db qqmusic_bd">
+                    <span id="qqmusic_play_<#=musicid#>_<#=posIndex#>" class="play_area">
+                        <i class="icon_qqmusic_switch"></i>
+                        <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x26f1f1.png" alt="" class="pic_qqmusic_default">
+                        <img src="<#=music_img#>" data-autourl="<#=audiourl#>" data-musicid="<#=musicid#>" class="qqmusic_thumb" alt="">
+                    </span>
+                                        <a id="qqmusic_home_<#=musicid#>_<#=posIndex#>" href="javascript:void(0);" class="access_area">
+                                            <span class="qqmusic_songname"><#=music_name#></span>
+                                            <span class="qqmusic_singername"><#=singer#></span>
+                                            <span class="qqmusic_source"><img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source263724.png" alt=""></span>
+                                        </a>
+                </span>
+            </span>
+            </span>
+        </script>
+        <script type="text/javascript">
+            var not_in_mm_css = "https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm2a7a3f.css";
+            var windowwx_css = "https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_winwx2b1291.css";
+            var tid = "";
+            var aid = "";
+            var clientversion = "70000001";
+            var appuin = "MjM5Mzc3MTgwMA==";
+            var source = "24";
+            var scene = 75;
+            var itemidx = "";
+            var _copyright_stat = "0";
+            var _ori_article_type = "";
+            var nickname = "荔枝FM";
+            var appmsg_type = "9";
+            var ct = "1434811386";
+            var user_name = "gh_b42fb3f53b2c";
+            var user_name_new = "";
+            var fakeid   = "MTIzMzUzODE1";
+            var version   = "";
+            var is_limit_user   = "0";
+            var msg_title = "天涯海角，只想读给你听";
+            var msg_desc = "许多电影都是如此：第一部惊心动魄，曲折动人，令人赞叹不已。等到拍了第二部，却总是少了些什么。一样的人物，一样";
+            var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/SXIyymo4Zd8AvD3thT0yNFaFMsWk1geUQYoa9jTsNrWRD7aKb5VvSQlNpn6AQf6TYp6YYiaTZK3WUswy3br8BRw/0?wx_fmt=jpeg";
+            var msg_link = "http://mp.weixin.qq.com/s?__biz=MjM5Mzc3MTgwMA==&amp;mid=211426887&amp;idx=1&amp;sn=75747e40713da32ddfde178c2663fcb0#rd";
+            var user_uin = "0"*1;
+            var msg_source_url = 'http://www.lizhi.fm/25938/#rd';
+            var img_format = 'jpeg';
+            var srcid = '0105AX6f3j4DuCUt1kNKnEmY';
+            var networkType;
+            var appmsgid = '' || '211426887';
+            var comment_id = "0" * 1;
+            var comment_enabled = "" * 1;
+            var is_need_reward = "0" * 1;
+            var is_https_res = ("" * 1) && (location.protocol == "https:");
+            var devicetype = "webwx";
+            var source_username = "";
+            var profile_ext_signature = "" || "";
+            var reprint_ticket = "";
+            var source_mid = "";
+            var source_idx = "";
+            var show_comment = "";
+            var __appmsgCgiData = {
+                can_use_page : "0"*1,
+                is_wxg_stuff_uin : "0"*1,
+                card_pos : "",
+                copyright_stat : "0",
+                source_biz : "",
+                hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6pic2VHuO7jM2asSxDiauEtRia7LTkV4vVxDEiauX4UwpV3g/0"||(window.location.protocol+"//"+window.location.host + "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x264e76.jpg")
+            };
+            var _empty_v = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty26f1f1.mp3";
+            var copyright_stat = "0" * 1;
+            var pay_fee = "" * 1;
+            var pay_timestamp = "";
+            var need_pay = "" * 1;
+            var need_report_cost = "0" * 1;
+            window.wxtoken = "";
+            if(!!window.__initCatch){
+                window.__initCatch({
+                    idkey : 27613,
+                    startKey : 0,
+                    limit : 9,
+                    reportOpt : {
+                        uin : uin,
+                        biz : biz,
+                        mid : mid,
+                        idx : idx,
+                        sn  : sn
+                    }
+                });
+            }
+        </script>
+        <script type="text/javascript">
+            seajs.use('appmsg/index.js');
+        </script>
+
+        <!-- begin footer -->
+
+        <div class="clearfix"></div>
+        <div class="footer">
+            <div class="container">
+                <div class="col-md-3 footer_grid1" style="padding-left: 9em;">
+                    <ul class="list1 list2">
+                        <li class="list1_desc">
+                            <p class="m_3">关注我们</p>
+                        </li>
+                        <div class="clearfix"> </div>
+                    </ul>
+                    <ul class="footer_social">
+                        <li><a href=""><i class="fb"> </i> </a></li>
+                        <li><a href=""><i class="tw"> </i> </a></li>
+                        <li><a href=""><i class="db"> </i> </a></li>
+                        <li><a href=""><i class="google"> </i> </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer_grid1" style="padding-left:7em;>
+
+                <li class="list1_desc">
+                    <p class="m_3">招商与合作</p>
+                </li>
+                <div class="clearfix"> </div>
+                </ul>
+            </div>
+            <div class="col-md-3 footer_grid1" style="padding-left: 5em;>
+            <ul class="list1 list2">
+            <li class="list1_desc">
+                <p class="m_3">隐私政策</p>
+            </li>
+            <div class="clearfix"> </div>
+            </ul>
+        </div>
+        <div class="col-md-3 footer_grid1">
+            <ul class="list1 list2">
+                <li class="list1_desc">
+                    <p class="m_3">服务协议</p>
+                </li>
+                <div class="clearfix"> </div>
+            </ul>
+        </div>
+
+        <div class="clearfix" style="border-bottom: 1px solid #767676; margin-top:2em; margin-bottom: 2em;"></div>
+        <div class="copyright">Copyright © readenglishforyou All rights reserved.</div>
+        <div class="copyright">email：readenglishforyou@163.com</div>
+    </div>
+</div>
+<div class="fanhui"><a href="#"><img src="images/fanhui.png" class="img-responsive" width="60%"/></a> </div>
+        <!-- end footer -->
+
+</body>
+</html>

@@ -1,0 +1,337 @@
+<!DOCTYPE HTML>
+<!--[if IE 8]> <html class="ie8 no-js"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
+<head>
+    <title>主播</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Gelios Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="js/jquery-1.js"></script>
+    <script type="text/javascript" src="js/base.js"></script>
+    <script src="js/jquery.easydropdown.js"></script>
+    <script src="js/jquery-ui-1.8.21.custom.min.js" type="text/javascript"></script> <!-- tabs, toggles, accordion -->
+    <link rel="stylesheet" href="css/etalage.css">
+    <script src="js/jquery.etalage.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.flexisel.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/jquery.flexslider-min.js" type="text/javascript"></script><!-- slider -->
+    <script src="js/modernizr.custom.js" type="text/javascript"></script> <!-- Modernizr -->
+    <script src="js/custom.js" type="text/javascript"></script> <!-- jQuery initialization -->
+    <!-- begin JS -->
+    <script>
+        $(function() {$(".flexslider").flexslider(); });
+    </script>
+
+    <!--[if IE 8]><script src="js/respond.min.js" type="text/javascript"></script><![endif]--> <!-- Respond -->
+
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+
+    <!-- Custom Theme files -->
+    <link href='http://fonts.useso.com/css?family=Playball' rel='stylesheet' type='text/css'>
+    <!----start-top-nav-script---->
+    <script src="js/custom.js" type="text/javascript"></script>
+    <script  type="text/javascript">
+
+
+    </script>
+    <!----- start-Share-instantly-slider---->
+    <!-- Prettify -->
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#owl-demo , #owl-demo1").owlCarousel({
+                items : 1,
+                lazyLoad : true,
+                autoPlay : true
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#owl-demo3").owlCarousel({
+                items : 4,
+                lazyLoad : true,
+                autoPlay : true,
+                navigation: false,
+                pagination: false
+            });
+        });
+    </script>
+    <!----- //End-Share-instantly-slider---->
+    <script type="text/javascript" src="js/hover_pack.js"></script>
+    <!----begin-calendar-script---->
+    <link rel='stylesheet' href='cupertino/theme.css' />
+    <link href='css/calendar/fullcalendar.css' rel='stylesheet' />
+    <link href='css/fullcalendar.print.css' rel='stylesheet' media='print' />
+    <script src='js/calendar/jquery-ui-1.10.2.custom.min.js'></script>
+    <script src='js/calendar/fullcalendar.min.js'></script>
+
+    <!----start-top-nav-script---->
+    <script>
+        $(function() {
+            var pull        = $('#pull');
+            menu        = $('nav ul');
+            menuHeight  = menu.height();
+            $(pull).on('click', function(e) {
+                e.preventDefault();
+                menu.slideToggle();
+            });
+            $(window).resize(function(){
+                var w = $(window).width();
+                if(w > 320 && menu.is(':hidden')) {
+                    menu.removeAttr('style');
+                }
+            });
+        });
+    </script>
+    <!----//End-top-nav-script---->
+    <script>
+        $(document).ready(function() {
+            var date = new Date();
+            var d = date.getDate();
+            var m = date.getMonth();
+            var y = date.getFullYear();
+
+            $('#calendar').fullCalendar({
+                theme: true,
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,agendaWeek,agendaDay'
+                },
+                editable: true,
+                events: [
+                    {title: 'All Day Event',
+                        start: new Date(y, m, 1)
+                    },
+                    {
+                        title: 'Long Event',
+                        start: new Date(y, m, d-5),
+                        end: new Date(y, m, d-2)
+                    },
+                    {
+                        id: 999,
+                        title: 'Repeating Event',
+                        start: new Date(y, m, d-3, 16, 0),
+                        allDay: false
+                    },
+                    {
+                        id: 999,
+                        title: 'Repeating Event',
+                        start: new Date(y, m, d+4, 16, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'Meeting',
+                        start: new Date(y, m, d, 10, 30),
+                        allDay: false
+                    },
+                    {
+                        title: 'Lunch',
+                        start: new Date(y, m, d, 12, 0),
+                        end: new Date(y, m, d, 14, 0),
+                        allDay: false
+                    },
+                    {
+                        title: 'Birthday Party',
+                        start: new Date(y, m, d+1, 19, 0),
+                        end: new Date(y, m, d+1, 22, 30),
+                        allDay: false
+                    },
+                    {
+                        title: 'Click for Google',
+                        start: new Date(y, m, 28),
+                        end: new Date(y, m, 29),
+                        url: 'http://google.com/'
+                    }
+                ]
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+
+<!-- new program-->
+<div class="grid_1">
+    <div class="container">
+        <div class="header">
+            <img src="images/backg.jpg" width="100%" class="img-responsive"/>
+            <div class="container">
+                <div class="clearfix"></div>
+                <div class="header_top">
+
+                    <div class="menu">
+                        <ul class="nav" id="nav">
+                            <li ><a href="index.html">首页</a></li>
+                           <!-- <li class="current"><a href="anchor.html">主播介绍</a></li> -->
+                            <li><a href="recommend.html">一些推荐</a></li>
+                            <li><a href="contact.html">联系我们</a></li>
+                            <li><a href="about.html">关于我们</a></li>
+                        </ul>
+                        <script type="text/javascript" src="js/responsive-nav.js"></script>
+                    </div>
+                    <div class="clearfix"> </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix" style="margin-top:-50px;"> </div>
+<div class="row" style="width:100%;padding: 0; margin: 0">
+            <div class="item_box box10" style="padding-top: 1.5em;">
+                <div class="item_box_wp">
+                    <div class="voice_2">
+                        <ul>
+                            <li style="width: 680px;" class="li1" id="li1">
+                                <div class="fold" style="display:none;">
+                                    <span class="img"></span>
+                                    <span class="txt">永清</span>
+                                </div>
+                                <div class="unfold" style="display:block">
+                                    <dl>
+                                        <dt><img src="images/img10.png"></dt>
+                                        <dd>
+                                        </dd>
+                                        <dd>一些介绍</dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li style="width: 100px;" class="li2">
+                                <div class="fold">
+                                    <span class="img"></span>
+                                    <span class="txt">潇雨</span>
+                                </div>
+                                <div class="unfold">
+                                    <dl>
+                                        <dt><img src="images/img42.png"></dt>
+                                        <dd>
+                                        </dd>
+                                        <dd>各种介绍balabalalbalblablabla</dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li style="width: 100px;" class="li3">
+                                <div class="fold">
+                                    <span class="img"></span>
+                                    <span class="txt">TO</span>
+                                </div>
+                                <div class="unfold">
+                                    <dl>
+                                        <dt><img src="images/img49.png"></dt>
+                                        <dd>
+                                        </dd>
+                                        <dd>balabalalbalba</dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li style="width: 100px;" class="li4">
+                                <div class="fold">
+                                    <span class="img"></span>
+                                    <span class="txt">BE</span>
+                                </div>
+                                <div class="unfold">
+                                    <dl>
+                                        <dt><img src="images/img50.png"></dt>
+                                        <dd>
+                                        </dd>
+                                        <dd>balabalalbabalbaba</dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li style="width: 100px;" class="li5">
+                                <div class="fold">
+                                    <span class="img"></span>
+                                    <span class="txt">CONTINUED</span>
+                                </div>
+                                <div class="unfold">
+                                    <dl>
+                                        <dt><img src="images/img51.png"></dt>
+                                        <dd>
+                                        </dd>
+                                        <dd>balabalabalabalbalbaba</dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li style="width: 100px;" class="li6">
+                                <div class="fold">
+                                    <span class="img"></span>
+                                    <span class="txt">.......</span>
+                                </div>
+                                <div class="unfold">
+                                    <dl>
+                                        <dt><img src="images/img52.png"></dt>
+                                        <dd>
+                                        </dd>
+                                        <dd>balabalabala</dd>
+                                    </dl>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+<!-- begin footer -->
+<div class="clearfix"></div>
+<div class="footer">
+    <div class="container">
+        <div class="col-md-3 footer_grid1" style="padding-left: 9em;">
+             <ul class="list1 list2">
+                <li class="list1_desc">
+                    <p class="m_3">关注我们</p>
+                </li>
+                <div class="clearfix"> </div>
+            </ul>
+            <ul class="footer_social">
+                <li><a href=""><i class="fb"> </i> </a></li>
+                <li><a href=""><i class="tw"> </i> </a></li>
+                <li><a href=""><i class="db"> </i> </a></li>
+                <li><a href=""><i class="google"> </i> </a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 footer_grid1" style="padding-left:7em;>
+            <ul class="list1 list2>
+                <li class="list1_desc">
+                    <p class="m_3">招商与合作</p>
+                </li>
+                <div class="clearfix"> </div>
+            </ul>
+        </div>
+        <div class="col-md-3 footer_grid1" style="padding-left: 5em;>
+            <ul class="list1 list2C">
+                <li class="list1_desc">
+                    <p class="m_3">隐私政策</p>
+                </li>
+                <div class="clearfix"> </div>
+            </ul>
+        </div>
+        <div class="col-md-3 footer_grid1">
+            <ul class="list1 list2">
+                <li class="list1_desc">
+                    <p class="m_3">服务协议</p>
+                </li>
+                <div class="clearfix"> </div>
+            </ul>
+        </div>
+
+        <div class="clearfix" style="border-bottom: 1px solid #767676; margin-top:2em; margin-bottom: 2em;"></div>
+        <div class="copyright">Copyright © readenglishforyou All rights reserved.</div>
+        <div class="copyright">email：readenglishforyou@163.com</div>
+    </div>
+</div>
+<div class="fanhui"><a href="#"><img src="images/fanhui.png" class="img-responsive" width="60%"/></a> </div>
+<!-- end footer -->
+<!-- end content-->
+</body>
+</html>
