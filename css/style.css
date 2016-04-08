@@ -233,7 +233,7 @@ body a{
 .nav ul {
     list-style: none;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:1200px) {
 	.menu {
 		margin:10px 0;
 	}

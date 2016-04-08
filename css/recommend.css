@@ -1,8 +1,9 @@
 #contribution{
+text-indent:35px;
 margin-top:10px;
 }
 #contribution h2{
-color:#038;
+color:#0b0;
 }
 #contribution .travelsList {
 margin:10px 25px 0 0;
@@ -21,12 +22,13 @@ border:0;
 clear:both;
 }
 .travelsList li {
-height:110px;
+height:121px;
+width:1200px;
 position:relative;
 line-height:2;
 padding:0 40px 0 160px;
 margin-bottom:2px;
-background:url(../images/List_bg.gif) no-repeat;
+background:url(../images/List_bg.JPG) no-repeat;
 }
 .travelsList h3 a:hover {
 color:#039;
